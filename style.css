@@ -1,0 +1,114 @@
+:root{
+    --font_heading: 'Big Shoulders Display', cursive;
+    --font_normal: 'Lexend Deca', sans-serif;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+.supreme{
+    height:800px;
+    width:800px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.sedans_section{
+    background-color:hsl(31, 77%, 52%) ;
+    padding-left:30px;
+    color:white;
+    padding-right:30px;
+}
+.suv_section{
+    background-color:hsl(184, 100%, 22%);
+    padding-left:30px;
+    color:white;
+    padding-right:30px;
+}
+.luxury_section{
+    background-color:hsl(179, 100%, 13%);
+    padding-left:30px;
+    color:white;
+    padding-right:30px;
+}
+.sedans_section img{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.suv_section img{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.luxury_section img{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.sedans{
+    font-family: var(--font_heading);
+    font-size: 30px;
+    margin-bottom:30px;
+}
+.about_sedans{
+    font-family:var(--font_normal);
+    font-size: 15px;
+    margin-bottom: 70px;
+}
+.sedan_button{
+    height:40px;
+    width:120px;
+    font-family: var(--font_normal);
+    border-radius: 30px;
+    border:none;
+    margin-bottom:30px;
+    color:hsl(31, 77%, 52%) ;
+    cursor:pointer;
+    transition: background-color 0.15s , color 0.15s;
+}
+.sedan_button:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    color:white;
+    border:2px solid white;
+}
+.suv_button{
+    height:40px;
+    width:120px;
+    font-family:var(--font_normal);
+    border-radius: 30px;
+    border:none;
+    margin-bottom:30px;
+    color:hsl(184, 100%, 22%);
+    cursor:pointer;
+    transition: background-color 0.15s , color 0.15s;
+}
+.suv_button:hover{
+    background-color:hsl(184, 100%, 22%);;
+    color:white;
+    border:2px solid white;
+}
+.luxury_button{
+    height:40px;
+    width:120px;
+    font-family:var(--font_normal);
+    border-radius: 30px;
+    border:none;
+    margin-bottom:30px;
+    color:hsl(179, 100%, 13%);
+    cursor:pointer;
+    transition: background-color 0.15s , color 0.15s;
+}
+.luxury_button:hover{
+    background-color:hsl(179, 100%, 13%);
+    color:white;
+    border:2px solid white;
+}
+@media (max-width:375px){
+    .supreme{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
