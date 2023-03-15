@@ -103,7 +103,7 @@ body{
     color:white;
     border:2px solid white;
 }
-@media (max-width:600px){
+@media (max-width:375px){
     .supreme{
         display:flex;
         flex-direction: column;
