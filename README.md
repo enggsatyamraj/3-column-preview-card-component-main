@@ -1,6 +1,6 @@
 ## Deploying your project
 
-As mentioned above, there are many ways to host your project for free. I have used Github for hosting my website:
+As mentioned above, there are many ways to host my project for free. I have used Github for hosting my website:
 
 This is the link:-
 
