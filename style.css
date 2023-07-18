@@ -9,8 +9,7 @@ body{
     min-height:100vh;
 }
 .supreme{
-    height:800px;
-    width:800px;
+    max-width:800px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -103,7 +102,7 @@ body{
     color:white;
     border:2px solid white;
 }
-@media (max-width:375px){
+@media (max-width:670px){
     .supreme{
         display:flex;
         flex-direction: column;
